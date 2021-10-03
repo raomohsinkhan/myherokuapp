@@ -19,6 +19,7 @@ urlpatterns = [
     path("madd/",hello.views.madd,name="madd"),
     path("add/",hello.views.add,name="add"),
     path("sum/",hello.views.sum,name="sum"),
+    path("result/",hello.views.result,name="result"),
     path("divide/",hello.views.divide,name="divide"),
     path("multiplay",hello.views.multiplay,name="multiplay"),
     path("db/", hello.views.db, name="db"),
