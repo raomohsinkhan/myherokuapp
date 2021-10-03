@@ -12,7 +12,7 @@ def index(request):
 def db(request):
 
     greeting = Greeting()
-    greeting.save()
+    #greeting.save()
 
     greetings = Greeting.objects.all()
 
