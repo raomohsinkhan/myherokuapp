@@ -32,5 +32,5 @@ def sum(request):
 def divide(request):
 	return render(request,"mymath.html", {"myop":"divide"})
 
-def add(request):
+def multiplay(request):
 	return render(request,"mymath.html", {"myop":"multiplay"})
