@@ -21,3 +21,16 @@ def db(request):
 
 def madd(request):
 	return render(request,"madd.html")
+
+
+def add(request):
+	return render(request,"mymath.html", {"myop":"add"})
+
+def sum(request):
+	return render(request,"mymath.html", {"myop":"sum"})
+
+def divide(request):
+	return render(request,"mymath.html", {"myop":"divide"})
+
+def add(request):
+	return render(request,"mymath.html", {"myop":"multiplay"})
